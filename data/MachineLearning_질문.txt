@@ -1,0 +1,5 @@
+1. 파일 불러오기 - in jupyter
+3. plt.barh(np.arange(len(FI_top5)), FI_top5.values, align="center") -> np.arange(len(FI_top5) 이유
+   : 그저 y축만 입력하면 되지 않은가? -> 앙상블 모형
+  ln[33]
+4. ln[6] max_iter=100인데 왜 max_iter=500으로 설정? -> 로지스틱회귀
